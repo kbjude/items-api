@@ -14,7 +14,7 @@ class ItemsController < ApplicationController
             name: params[:name],
             description: params[:description]
         )
-        render json: @secretMenuItem
+        render json: @item
     end 
 
     def update
